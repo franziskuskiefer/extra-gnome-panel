@@ -1,0 +1,15 @@
+{
+  "description": "Add top panel for second monitor. No fancy settings or panel stuff, just the panel.", 
+  "gettext-domain": "extra-gnome-panel", 
+  "name": "Extra Gnome Panel",
+  "shell-version": [
+    "3.5", 
+    "3.6", 
+    "3.7", 
+    "3.8",
+    "3.9"
+  ], 
+  "url": "https://github.com/franziskuskiefer/extra-panels.git", 
+  "uuid": "extra-gnome-panel@franziskuskiefer.de", 
+  "version": 1
+}
