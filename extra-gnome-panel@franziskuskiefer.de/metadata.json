@@ -7,7 +7,8 @@
     "3.6", 
     "3.7", 
     "3.8",
-    "3.9"
+    "3.9",
+    "3.10"
   ], 
   "url": "https://github.com/franziskuskiefer/extra-panels.git", 
   "uuid": "extra-gnome-panel@franziskuskiefer.de", 
