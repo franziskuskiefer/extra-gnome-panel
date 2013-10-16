@@ -71,9 +71,6 @@ const ExtraPanels = new Lang.Class({
             this.panels[i].actor.destroy();
             this.panelBoxes = null;
 
-            if (this._leftPanelBarriers[i] > 0)
-                global.destroy_pointer_barrier(this._leftPanelBarriers[i]);
-            
             this.panels[i]._hotCorner.actor.destroy();
         }
         Main.layoutManager.disconnect(this.monSigId);
