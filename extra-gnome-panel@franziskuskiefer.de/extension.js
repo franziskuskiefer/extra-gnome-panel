@@ -54,13 +54,13 @@ const ExtraPanels = new Lang.Class({
 
     },
 
-    updateCorners : function(monIndex){
-        let corner = new Layout.HotCorner(); // XXX: caus of error
-        Main.layoutManager._hotCorners.push(corner);
-        corner.actor.set_position(this.monitors[monIndex].x, this.monitors[monIndex].y);
-        Main.layoutManager._chrome.addActor(corner.actor);
-        this.panels[monIndex]._hotCorner = corner;
-    },
+//    updateCorners : function(monIndex){
+//        let corner = new Layout.HotCorner(); // XXX: caus of error
+//        Main.layoutManager._hotCorners.push(corner);
+//        corner.actor.set_position(this.monitors[monIndex].x, this.monitors[monIndex].y);
+//        Main.layoutManager._chrome.addActor(corner.actor);
+//        this.panels[monIndex]._hotCorner = corner;
+//    },
 
     destroy : function(){
 
